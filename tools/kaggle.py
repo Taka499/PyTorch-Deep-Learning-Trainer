@@ -22,7 +22,7 @@ def setup_kaggle():
     execute_shell(cmd2)
 
     with open("/root/.kaggle/kaggle.json", "w+") as f:
-        f.write('{"username":"ghensk","key":"ace8d249dc78710ef74422ce77e81c17"}') # Put your kaggle username & key here
+        f.write('{"username":"your-kaggle-username","key":"your-kaggle-key"}') # Put your kaggle username & key here
 
     cmd3 = 'chmod 600 /root/.kaggle/kaggle.json'
     execute_shell(cmd3)
